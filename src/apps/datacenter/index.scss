@@ -1,0 +1,157 @@
+.Global-color {
+  height: 100%;
+
+  .top {
+    height: (336/75) + rem;
+    background: url("../../assets/icon-first/my_bg.png");
+    text-align: center;
+    padding-top: (30/75) + rem;
+    .top_img {
+      width: (128/75) + rem;
+      height: (128/75) + rem;
+      border: (64/75) + rem;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+    .top_text {
+      width: (500/75) + rem;
+      height: (60/75) + rem;
+      line-height: (68/75) + rem;
+      border-radius: (30/75) + rem;
+      margin: 0 auto;
+      margin-top: (20/75) + rem;
+      color: #323232;
+      background: rgba(255, 255, 255, 0.3);
+      font-size: (28/75) + rem;
+    }
+  }
+  .my-content {
+    padding: (30/75) + rem;
+    position: absolute;
+    width: 100%;
+    display: block;
+    top: (272/75) + rem;
+
+    div {
+      margin: (30/75) + rem auto;
+    }
+
+    .face {
+      background: #fff;
+      color: #323232;
+      box-shadow: 0 4px 10px 0 rgba(69, 69, 69, 0.1);
+      border-radius: 8px;
+      border: none;
+    }
+
+    .credit {
+      background: #fff;
+      color: #323232;
+      box-shadow: 0 4px 10px 0 rgba(69, 69, 69, 0.1);
+      border-radius: 8px;
+      border: none;
+    }
+
+    .personage {
+      background: #fff;
+      color: #323232;
+      box-shadow: 0 4px 10px 0 rgba(69, 69, 69, 0.1);
+      border-radius: 8px;
+      border: none;
+    }
+
+    .bankcard {
+      background: #fff;
+      color: #323232;
+      box-shadow: 0 4px 10px 0 rgba(69, 69, 69, 0.1);
+      border-radius: 8px;
+      border: none;
+    }
+
+    .phone {
+      background: #fff;
+      color: #323232;
+      box-shadow: 0 4px 10px 0 rgba(69, 69, 69, 0.1);
+      border-radius: 8px;
+      border: none;
+    }
+
+    .my-content-area-face {
+      width: 90%;
+      height: (160/75) + rem;
+
+      border-radius: (2/75) + rem;
+      display: flex;
+
+      //   div {
+      //     flex: 1;
+      //   }
+
+      .content-a {
+        margin-left: (20/75) + rem;
+        margin-top: (40/75) + rem;
+        width: (80/75) + rem;
+        img {
+          width: (80/75) + rem;
+        }
+      }
+
+      .content-b {
+        width: (340/75) + rem;
+        margin-left: (20/75) + rem;
+        margin-top: (15/75) + rem;
+        font-family: PingFangSC-Regular;
+        font-size: (24/75) + rem;
+
+        letter-spacing: 0;
+        text-align: center;
+        text-align: left;
+
+        p {
+          &:nth-child(1) {
+            font-size: (28/75) + rem;
+            margin: (20/75) + rem 0 (5/75) + rem 0;
+            color: #323232;
+          }
+          &:nth-child(2) {
+            font-size: (22/75) + rem;
+            margin-bottom: (20/75) + rem;
+            color: #89898b;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+          }
+        }
+      }
+      .content-c {
+        color: #fff;
+        background: url("../../assets/icon-first/rz_btn.png") no-repeat 0
+          (20/75) + rem;
+        background-size: (164/75) + rem (108/75) + rem;
+        font-size: (28/75) + rem;
+        font-weight: normal;
+        width: (164/75) + rem;
+        // padding-left: (28/75)+rem;
+        text-align: center;
+        line-height: (150/75) + rem;
+        padding-right: 0;
+        width: (164/75) + rem;
+      }
+    }
+  }
+  .submitBtn {
+    height: (90/75) + rem;
+    border-radius: (100/75) + rem;
+    line-height: (90/75) + rem;
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #3F70FF;
+    margin: 0  auto;
+    margin-top: (50/75)+rem;
+  }
+}
